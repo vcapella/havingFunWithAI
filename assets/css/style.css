@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin: 10px 0 5px 0;
+    /* border:5px solid red; */
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:hsl(280, 90%, 40%);
+    padding: 1em 0;
+
+}
+
+.user-interaction {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    padding: 5px 0 5px 0;
+    /* border:5px solid red; */
+    
+}
+
+label {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+textarea {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 150px;
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid hsl(280, 20%, 40%);
+    box-shadow: 2px 2px 2px hsl(280, 5%, 40%);
+    resize: none;
+    outline:1px solid hsl(280, 5%, 40%);
+}
+
+textarea:focus {
+    border: 3px solid hsl(280, 90%, 40%);
+}
+
+.btn {
+    display: block;
+    margin: 1rem 0 1rem;
+}
+
+.submit-btn {
+    height: 45px;
+    width: 100px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: hsl(280, 90%, 40%);
+    border-radius: 25px;
+    border: 2px solid;
+    
+}
+
+.reset-btn {
+    height: 45px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(1, 1%, 60%);
+    border-radius: 25px;
+    border: 2px solid;
+    
+}
+
+.submit-btn:hover {
+    background-color: hsl(270, 90%, 40%);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.reset-btn:hover {
+    background-color: hsl(1, 75%, 60%);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(280, 90%, 40%);
+    border-top: 1px solid hsl(280, 20%, 40%);
+    padding-top: 10px;
+    margin-left: 20px;
+}
