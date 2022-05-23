@@ -1,1 +1,1 @@
-new proj
+This is a text generator that user can enter any prompt they have in mind. In response the user will receive a text matching the request subject.
