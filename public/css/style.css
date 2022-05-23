@@ -30,6 +30,10 @@ header {
     
 }
 
+.enter-key{
+
+}
+
 label {
     font-size: 2rem;
     margin-bottom: 0rem;
@@ -37,7 +41,7 @@ label {
 textarea {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    height: 150px;
+    height: 100px;
     width: 60%;
     padding: 10px;
     margin: 10px;
@@ -102,4 +106,19 @@ h2 {
     border-top: 1px solid hsl(280, 20%, 40%);
     padding-top: 10px;
     margin-left: 20px;
+}
+
+.card-body{
+ margin: 10px 0 10px 0;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    color: hsl(280, 90%, 40%);
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.4rem;
+    color: hsl(280, 20%, 40%);
 }
