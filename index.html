@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun with AI</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -14,22 +14,27 @@
             <h1>Fun with AI!</h1>
         </header>
         
-        <form action=""  method="">
+        <form action=""  method="" id="form-prompt">
+            <input type="text" id="openAiKey">
             <div class="user-interaction">        
                 <label for="enter-prompt" class="form-label">Enter prompt</label>
                 <textarea id="enter-prompt" name="user_input"> </textarea>
                 <div class="btn">
                     <button type="reset" class="reset-btn">Reset</button>
-                    <button type="submit" class="submit-btn">Submit</button>
+                    <button type="button" id="submitBtn" class="submit-btn">Submit</button>
                 </div>
             </div>
         </form>
 
-        <h2>RESPONSES</h2>
-
-
+        <div>
+            <h2>RESPONSES</h2>
+            <div id="my-list">
+                
+            </div>
+        </div>
 
     </div>
-    <script src="./assets/script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./public/script.js"></script>
 </body>
 </html>
